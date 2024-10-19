@@ -23,7 +23,7 @@ bot.onText(/\/start/, (msg) => {
     };
 
     // Send a message with buttons
-    bot.sendMessage(chatId, 'Welcome to PrizeX! 🌐 \n\n Ready to dive into exciting lotteries and stand a chance to win amazing prizes? Tap the buttons below to get started!', options);
+    bot.sendMessage(chatId, 'Welcome to PrizeX! 🎉 \n\n Hi there! 👋 We are thrilled to have you here. With our app, you can easily participate in exciting lotteries for amazing prizes, like the latest gadgets, cars, and more! 🎁🚗📱 \n\n Here is how it works: \n\nBrowse Prizes - Explore the list of available products and choose the ones you like to win.\n\nBuy Tickets - Purchase tickets for any prize that catches your eye.\n\nJoin the Draw - On the draw date, our system randomly picks a winner for each prize.\n\nCheck Results - See if you are the lucky winner by visiting the Tickets page anytime!\n\nIf you need help or have any questions, just type “/help” or reach out to us directly. Good luck, and let the fun begin! 🍀🎟️', options);
 });
 
 bot.onText('', (msg) => {
@@ -40,7 +40,7 @@ bot.onText('', (msg) => {
             }
         };
         // Send a message with buttons
-        bot.sendMessage(chatId, 'Welcome to PrizeX! 🎉 \n\n Hi there! 👋 We are thrilled to have you here. With our app, you can easily participate in exciting lotteries for amazing prizes, like the latest gadgets, cars, and more! 🎁🚗📱 \n\n Here is how it works: \n\nBrowse Prizes - Explore the list of available products and choose the ones you like to win.\n\nBuy Tickets - Purchase tickets for any prize that catches your eye.\n\nJoin the Draw - On the draw date, our system randomly picks a winner for each prize.\n\nCheck Results - See if you are the lucky winner by visiting the Tickets page anytime!\n\nIf you need help or have any questions, just type “/help” or reach out to us directly. Good luck, and let the fun begin! 🍀🎟️', options);
-    
+        bot.sendMessage(chatId, 'Welcome to PrizeX! 🌐 \n\n Ready to dive into exciting lotteries and stand a chance to win amazing prizes? Tap the buttons below to get started!', options);
+
     }
 });
