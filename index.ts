@@ -15,7 +15,9 @@ bot.onText(/\/start/, (msg) => {
         reply_markup: {
             inline_keyboard: [
                 [
-                    { text: 'Launch App', web_app: {url: 'https://prizexapp.com'}},
+                    { text: 'Launch App', url: 'https://t.me/prizex_draw_bot/przapp'},
+                ],
+                [
                     { text: 'Join Community', url: 'https://t.me/prizexrewards'}
                 ]
             ]
@@ -33,7 +35,9 @@ bot.onText('', (msg) => {
             reply_markup: {
                 inline_keyboard: [
                     [
-                        {text: 'Launch App', web_app: {url: 'https://prizexapp.com'}},
+                        { text: 'Launch App', url: 'https://t.me/prizex_draw_bot/przapp'},
+                    ],
+                    [
                         { text: 'Join Community', url: 'https://t.me/prizexrewards'}
                     ]
                 ]
